@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eae9501d-095b-4ab6-b521-2604eafeab3e" name="Default Changelist" comment="" />
+    <list default="true" id="eae9501d-095b-4ab6-b521-2604eafeab3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignone" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gmJYsNGHu639y86sb5ivnzmKSn" />
   <component name="ProjectViewState">
@@ -13,18 +27,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\NikTo\Desktop\excel-course\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="eae9501d-095b-4ab6-b521-2604eafeab3e" name="Default Changelist" comment="" />
@@ -33,6 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598713896105</updated>
       <workItem from="1598713900257" duration="3345000" />
+      <workItem from="1598721749438" duration="17688000" />
     </task>
     <servers />
   </component>
@@ -40,6 +64,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="233" key="#Inspections" timestamp="1598727542006">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="586" y="233" key="#Inspections/0.30.1920.1050@0.30.1920.1050" timestamp="1598727542006" />
+    <state x="707" y="284" key="#JavaScript" timestamp="1598800361700">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="707" y="284" key="#JavaScript/0.30.1920.1050@0.30.1920.1050" timestamp="1598800361700" />
     <state x="792" y="411" key="#Other_File_Types" timestamp="1598714765910">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -48,5 +80,21 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="718" y="350" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1598715486618" />
+    <state x="739" y="260" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1598735542530">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="739" y="260" key="#com.intellij.ide.macro.MacrosDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1598735542530" />
+    <state x="627" y="343" key="EditFileWatcherDialog" timestamp="1598735551951">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="627" y="343" key="EditFileWatcherDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1598735551951" />
+    <state width="283" height="306" key="Git.Branch.Popup" timestamp="1598721788086">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="283" height="306" key="Git.Branch.Popup/0.30.1920.1050@0.30.1920.1050" timestamp="1598721788086" />
+    <state x="461" y="200" key="SettingsEditor" timestamp="1598800130566">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="461" y="200" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1598800130566" />
   </component>
 </project>
