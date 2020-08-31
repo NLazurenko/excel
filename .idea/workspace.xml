@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eae9501d-095b-4ab6-b521-2604eafeab3e" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
+
       <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -15,7 +13,9 @@
       <change beforePath="$PROJECT_DIR$/.gitignone" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
->>>>>>> f636536549a50ebdc82742c108cc103ff2a5248f
+
+=======
+>>>>>>> master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,14 +23,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-<<<<<<< HEAD
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="webpack" />
-      </map>
-    </option>
 =======
->>>>>>> f636536549a50ebdc82742c108cc103ff2a5248f
+>>>>>>> master
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gmJYsNGHu639y86sb5ivnzmKSn" />
