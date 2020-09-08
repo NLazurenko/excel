@@ -14,7 +14,8 @@ const jsLoaders = () => {
     {
       loader: 'babel-loader',
       options: {
-        presets: ['@babel/preset-env']
+        presets: ['@babel/preset-env'],
+        plugins: ['@babel/plugin-proposal-class-properties', '@babel/plugin-syntax-throw-expressions']
       }
     }
   ]
@@ -42,9 +43,13 @@ module.exports = {
     }
   },
   devtool: isDev ? 'source-map' : false,
+  watch: true,
   devServer: {
     port: 1234,
-    hot: isDev
+    hot: isDev,
+    watchOptions: {
+      poll: true
+    }
   },
   plugins: [
     new CleanWebpackPlugin(),
