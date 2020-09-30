@@ -43,14 +43,6 @@ module.exports = {
     }
   },
   devtool: isDev ? 'source-map' : false,
-  watch: true,
-  devServer: {
-    port: 1234,
-    hot: isDev,
-    watchOptions: {
-      poll: true
-    }
-  },
   plugins: [
     new CleanWebpackPlugin(),
     new HTMLWebpackPlugin({
@@ -73,26 +65,70 @@ module.exports = {
     })
   ],
   module: {
-    rules: [
-      {
-        test: /\.s[ac]ss$/i,
-        use: [
-          {
-            loader: MiniCssExtractPlugin.loader,
-            options: {
-              hmr: isDev,
-              reloadAll: true
+    rules: [{
+      test: /\.html$/i,
+      loader: 'html-loader',
+    }, {
+      test: /\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
+      use: [{
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]',
+          outputPath: 'fonts/'
+        }
+      }]
+    }, {
+      test: /\.(gif|png|jpe?g|svg)$/i,
+      use: [
+        'file-loader',
+        {
+          loader: 'image-webpack-loader',
+          options: {
+            mozjpeg: {
+              progressive: true,
+            },
+            // optipng.enabled: false will disable optipng
+            optipng: {
+              enabled: false,
+            },
+            pngquant: {
+              quality: [0.65, 0.90],
+              speed: 4
+            },
+            gifsicle: {
+              interlaced: false,
+            },
+            // the webp option will enable WEBP
+            webp: {
+              quality: 75
             }
-          },
-          'css-loader',
-          'sass-loader',
-        ],
-      },
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: jsLoaders()
-      }
-    ],
-  }
+          }
+        },
+      ],
+    }, {
+      test: /\.s[ac]ss$/i,
+      use: [
+        {
+          loader: MiniCssExtractPlugin.loader,
+          options: {
+            hmr: isDev,
+            reloadAll: true
+          }
+        },
+        'css-loader',
+        'sass-loader',
+      ],
+    }, {
+      test: /\.js$/,
+      exclude: /node_modules/,
+      use: jsLoaders()
+    }],
+  },
+  watch: true,
+  devServer: {
+    port: 1234,
+    hot: isDev,
+    writeToDisk: true,
+    watchOptions: {poll: true}
+  },
 }
